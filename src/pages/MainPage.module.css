@@ -1,0 +1,15 @@
+.fields {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  > :not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.iframeWrapper {
+  margin: 0 auto;
+  > iframe {
+    border: none;
+  }
+}
